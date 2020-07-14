@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectName>richtext</ProjectName>
+    <ProjectGuid>{09991BB8-22D5-4F02-B9D0-541FBD0389B6}</ProjectGuid>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="Common.props" />
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\richtext\richtextbuffer.cpp" />
+    <ClCompile Include="..\..\src\richtext\richtextctrl.cpp" />
+    <ClCompile Include="..\..\src\richtext\richtextformatdlg.cpp" />
+    <ClCompile Include="..\..\src\richtext\richtexthtml.cpp" />
+    <ClCompile Include="..\..\src\richtext\richtextprint.cpp" />
+    <ClCompile Include="..\..\src\richtext\richtextstyledlg.cpp" />
+    <ClCompile Include="..\..\src\richtext\richtextstyles.cpp" />
+    <ClCompile Include="..\..\src\richtext\richtextsymboldlg.cpp" />
+    <ClCompile Include="..\..\src\richtext\richtextxml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\wx\richtext\richtextbuffer.h" />
+    <ClInclude Include="..\..\include\wx\richtext\richtextctrl.h" />
+    <ClInclude Include="..\..\include\wx\richtext\richtextformatdlg.h" />
+    <ClInclude Include="..\..\include\wx\richtext\richtexthtml.h" />
+    <ClInclude Include="..\..\include\wx\richtext\richtextprint.h" />
+    <ClInclude Include="..\..\include\wx\richtext\richtextstyledlg.h" />
+    <ClInclude Include="..\..\include\wx\richtext\richtextstyles.h" />
+    <ClInclude Include="..\..\include\wx\richtext\richtextsymboldlg.h" />
+    <ClInclude Include="..\..\include\wx\richtext\richtextxml.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

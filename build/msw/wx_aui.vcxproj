@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectName>aui</ProjectName>
+    <ProjectGuid>{58CF95C6-460A-4B04-9ACC-EE059B41C02F}</ProjectGuid>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="Common.props" />
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\aui\auibar.cpp" />
+    <ClCompile Include="..\..\src\aui\auibook.cpp" />
+    <ClCompile Include="..\..\src\aui\dockart.cpp" />
+    <ClCompile Include="..\..\src\aui\floatpane.cpp" />
+    <ClCompile Include="..\..\src\aui\framemanager.cpp" />
+    <ClCompile Include="..\..\src\aui\tabmdi.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\wx\aui\aui.h" />
+    <ClInclude Include="..\..\include\wx\aui\auibar.h" />
+    <ClInclude Include="..\..\include\wx\aui\auibook.h" />
+    <ClInclude Include="..\..\include\wx\aui\dockart.h" />
+    <ClInclude Include="..\..\include\wx\aui\floatpane.h" />
+    <ClInclude Include="..\..\include\wx\aui\framemanager.h" />
+    <ClInclude Include="..\..\include\wx\aui\tabmdi.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

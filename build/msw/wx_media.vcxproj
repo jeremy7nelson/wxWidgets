@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectName>media</ProjectName>
+    <ProjectGuid>{7D1A74D1-F7A0-4B5D-9F80-4A5325869298}</ProjectGuid>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="Common.props" />
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\common\mediactrlcmn.cpp" />
+    <ClCompile Include="..\..\src\msw\mediactrl_am.cpp" />
+    <ClCompile Include="..\..\src\msw\mediactrl_qt.cpp" />
+    <ClCompile Include="..\..\src\msw\mediactrl_wmp10.cpp" />
+    <ClCompile Include="..\..\src\msw\ole\activex.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\wx\mediactrl.h" />
+    <ClInclude Include="..\..\include\wx\msw\ole\activex.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>
