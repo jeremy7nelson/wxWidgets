@@ -10,9 +10,6 @@
     <Filter Include="Generic Sources">
       <UniqueIdentifier>{181266c7-2158-451f-a859-4542ac8542af}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Setup Headers">
-      <UniqueIdentifier>{7913bcea-03a2-4143-9a8a-5d9ee880428e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="MSW Headers">
       <UniqueIdentifier>{bee94272-281e-4701-a824-91c4f2a8a6eb}</UniqueIdentifier>
     </Filter>
@@ -105,11 +102,6 @@
     <ClCompile Include="..\..\src\generic\wizard.cpp">
       <Filter>Generic Sources</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="..\..\src\msw\version.rc">
-      <Filter>MSW Sources</Filter>
-    </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\wx\msw\datectrl.h">
@@ -235,16 +227,5 @@
     <ClInclude Include="..\..\include\wx\wizard.h">
       <Filter>Common Headers</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="..\..\include\wx\msw\setup.h">
-      <Filter>Setup Headers</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\include\wx\univ\setup.h">
-      <Filter>Setup Headers</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\include\wx\msw\genrcdefs.h">
-      <Filter>MSW Headers</Filter>
-    </CustomBuild>
   </ItemGroup>
 </Project>
