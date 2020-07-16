@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectName>html</ProjectName>
+    <ProjectGuid>{4A4FD5B4-3BE3-40AE-9C7E-B16E894AA49E}</ProjectGuid>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="Common.props" />
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\generic\htmllbox.cpp" />
+    <ClCompile Include="..\..\src\html\helpctrl.cpp" />
+    <ClCompile Include="..\..\src\html\helpdata.cpp" />
+    <ClCompile Include="..\..\src\html\helpfrm.cpp" />
+    <ClCompile Include="..\..\src\html\htmlcell.cpp" />
+    <ClCompile Include="..\..\src\html\htmlfilt.cpp" />
+    <ClCompile Include="..\..\src\html\htmlpars.cpp" />
+    <ClCompile Include="..\..\src\html\htmltag.cpp" />
+    <ClCompile Include="..\..\src\html\htmlwin.cpp" />
+    <ClCompile Include="..\..\src\html\htmprint.cpp" />
+    <ClCompile Include="..\..\src\html\m_dflist.cpp" />
+    <ClCompile Include="..\..\src\html\m_fonts.cpp" />
+    <ClCompile Include="..\..\src\html\m_hline.cpp" />
+    <ClCompile Include="..\..\src\html\m_image.cpp" />
+    <ClCompile Include="..\..\src\html\m_layout.cpp" />
+    <ClCompile Include="..\..\src\html\m_links.cpp" />
+    <ClCompile Include="..\..\src\html\m_list.cpp" />
+    <ClCompile Include="..\..\src\html\m_pre.cpp" />
+    <ClCompile Include="..\..\src\html\m_style.cpp" />
+    <ClCompile Include="..\..\src\html\m_tables.cpp" />
+    <ClCompile Include="..\..\src\html\winpars.cpp" />
+    <ClCompile Include="..\..\src\msw\helpbest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\wx\htmllbox.h" />
+    <ClInclude Include="..\..\include\wx\html\helpctrl.h" />
+    <ClInclude Include="..\..\include\wx\html\helpdata.h" />
+    <ClInclude Include="..\..\include\wx\html\helpfrm.h" />
+    <ClInclude Include="..\..\include\wx\html\htmlcell.h" />
+    <ClInclude Include="..\..\include\wx\html\htmldefs.h" />
+    <ClInclude Include="..\..\include\wx\html\htmlfilt.h" />
+    <ClInclude Include="..\..\include\wx\html\htmlpars.h" />
+    <ClInclude Include="..\..\include\wx\html\htmlproc.h" />
+    <ClInclude Include="..\..\include\wx\html\htmltag.h" />
+    <ClInclude Include="..\..\include\wx\html\htmlwin.h" />
+    <ClInclude Include="..\..\include\wx\html\htmprint.h" />
+    <ClInclude Include="..\..\include\wx\html\m_templ.h" />
+    <ClInclude Include="..\..\include\wx\html\winpars.h" />
+    <ClInclude Include="..\..\include\wx\wxhtml.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

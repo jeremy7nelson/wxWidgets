@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectName>wxpng</ProjectName>
+    <ProjectGuid>{4E9CD12A-4A9A-4AC7-95D9-4BAAEECC841D}</ProjectGuid>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="Common.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\png\png.c" />
+    <ClCompile Include="..\..\src\png\pngerror.c" />
+    <ClCompile Include="..\..\src\png\pnggccrd.c" />
+    <ClCompile Include="..\..\src\png\pngget.c" />
+    <ClCompile Include="..\..\src\png\pngmem.c" />
+    <ClCompile Include="..\..\src\png\pngpread.c" />
+    <ClCompile Include="..\..\src\png\pngread.c" />
+    <ClCompile Include="..\..\src\png\pngrio.c" />
+    <ClCompile Include="..\..\src\png\pngrtran.c" />
+    <ClCompile Include="..\..\src\png\pngrutil.c" />
+    <ClCompile Include="..\..\src\png\pngset.c" />
+    <ClCompile Include="..\..\src\png\pngtrans.c" />
+    <ClCompile Include="..\..\src\png\pngvcrd.c" />
+    <ClCompile Include="..\..\src\png\pngwio.c" />
+    <ClCompile Include="..\..\src\png\pngwrite.c" />
+    <ClCompile Include="..\..\src\png\pngwtran.c" />
+    <ClCompile Include="..\..\src\png\pngwutil.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

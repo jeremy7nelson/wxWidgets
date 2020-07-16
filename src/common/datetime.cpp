@@ -168,8 +168,8 @@ wxCUSTOM_TYPE_INFO(wxDateTime, wxToStringConverter<wxDateTime> , wxFromStringCon
         #define WX_TIMEZONE wxGetTimeZone()
     #elif defined(__DARWIN__)
         #define WX_GMTOFF_IN_TM
-    #else // unknown platform - try timezone
-        #define WX_TIMEZONE timezone
+    #else // unknown platform - try _timezone
+        #define WX_TIMEZONE _timezone
     #endif
 #endif // !WX_TIMEZONE && !WX_GMTOFF_IN_TM
 

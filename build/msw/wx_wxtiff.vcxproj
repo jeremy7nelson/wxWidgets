@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectName>wxtiff</ProjectName>
+    <ProjectGuid>{6BB51C3D-6976-475D-B800-18DD43C58637}</ProjectGuid>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="Common.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <DisableSpecificWarnings>4133;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\tiff\tif_aux.c" />
+    <ClCompile Include="..\..\src\tiff\tif_close.c" />
+    <ClCompile Include="..\..\src\tiff\tif_codec.c" />
+    <ClCompile Include="..\..\src\tiff\tif_color.c" />
+    <ClCompile Include="..\..\src\tiff\tif_compress.c" />
+    <ClCompile Include="..\..\src\tiff\tif_dir.c" />
+    <ClCompile Include="..\..\src\tiff\tif_dirinfo.c" />
+    <ClCompile Include="..\..\src\tiff\tif_dirread.c" />
+    <ClCompile Include="..\..\src\tiff\tif_dirwrite.c" />
+    <ClCompile Include="..\..\src\tiff\tif_dumpmode.c" />
+    <ClCompile Include="..\..\src\tiff\tif_error.c" />
+    <ClCompile Include="..\..\src\tiff\tif_extension.c" />
+    <ClCompile Include="..\..\src\tiff\tif_fax3.c" />
+    <ClCompile Include="..\..\src\tiff\tif_fax3sm.c" />
+    <ClCompile Include="..\..\src\tiff\tif_flush.c" />
+    <ClCompile Include="..\..\src\tiff\tif_getimage.c" />
+    <ClCompile Include="..\..\src\tiff\tif_jpeg.c" />
+    <ClCompile Include="..\..\src\tiff\tif_luv.c" />
+    <ClCompile Include="..\..\src\tiff\tif_lzw.c" />
+    <ClCompile Include="..\..\src\tiff\tif_next.c" />
+    <ClCompile Include="..\..\src\tiff\tif_open.c" />
+    <ClCompile Include="..\..\src\tiff\tif_packbits.c" />
+    <ClCompile Include="..\..\src\tiff\tif_pixarlog.c" />
+    <ClCompile Include="..\..\src\tiff\tif_predict.c" />
+    <ClCompile Include="..\..\src\tiff\tif_print.c" />
+    <ClCompile Include="..\..\src\tiff\tif_read.c" />
+    <ClCompile Include="..\..\src\tiff\tif_strip.c" />
+    <ClCompile Include="..\..\src\tiff\tif_swab.c" />
+    <ClCompile Include="..\..\src\tiff\tif_thunder.c" />
+    <ClCompile Include="..\..\src\tiff\tif_tile.c" />
+    <ClCompile Include="..\..\src\tiff\tif_version.c" />
+    <ClCompile Include="..\..\src\tiff\tif_warning.c" />
+    <ClCompile Include="..\..\src\tiff\tif_win32.c" />
+    <ClCompile Include="..\..\src\tiff\tif_write.c" />
+    <ClCompile Include="..\..\src\tiff\tif_zip.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

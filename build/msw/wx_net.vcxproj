@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectName>net</ProjectName>
+    <ProjectGuid>{A8E6AFCE-DA82-47E5-907A-062302D1CE24}</ProjectGuid>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="Common.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>wxUSE_GUI=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\common\fs_inet.cpp" />
+    <ClCompile Include="..\..\src\common\ftp.cpp" />
+    <ClCompile Include="..\..\src\common\http.cpp" />
+    <ClCompile Include="..\..\src\common\protocol.cpp" />
+    <ClCompile Include="..\..\src\common\sckaddr.cpp" />
+    <ClCompile Include="..\..\src\common\sckfile.cpp" />
+    <ClCompile Include="..\..\src\common\sckipc.cpp" />
+    <ClCompile Include="..\..\src\common\sckstrm.cpp" />
+    <ClCompile Include="..\..\src\common\socket.cpp" />
+    <ClCompile Include="..\..\src\common\url.cpp" />
+    <ClCompile Include="..\..\src\msw\gsocket.cpp" />
+    <ClCompile Include="..\..\src\msw\urlmsw.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\wx\fs_inet.h" />
+    <ClInclude Include="..\..\include\wx\gsocket.h" />
+    <ClInclude Include="..\..\include\wx\msw\gsockmsw.h" />
+    <ClInclude Include="..\..\include\wx\protocol\file.h" />
+    <ClInclude Include="..\..\include\wx\protocol\ftp.h" />
+    <ClInclude Include="..\..\include\wx\protocol\http.h" />
+    <ClInclude Include="..\..\include\wx\protocol\protocol.h" />
+    <ClInclude Include="..\..\include\wx\sckaddr.h" />
+    <ClInclude Include="..\..\include\wx\sckipc.h" />
+    <ClInclude Include="..\..\include\wx\sckstrm.h" />
+    <ClInclude Include="..\..\include\wx\socket.h" />
+    <ClInclude Include="..\..\include\wx\url.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>
