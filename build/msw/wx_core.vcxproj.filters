@@ -940,7 +940,7 @@
     <ClInclude Include="..\..\include\wx\msw\scrolbar.h">
       <Filter>MSW Headers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\wx\msw\setup0.h">
+    <ClInclude Include="..\..\include\wx\setup.h">
       <Filter>MSW Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\..\include\wx\msw\slider95.h">
