@@ -33,9 +33,7 @@
 // Default is 0
 //
 // Recommended setting: 0 (please update your code)
-#ifndef WXWIN_COMPATIBILITY_2_2
-    #define WXWIN_COMPATIBILITY_2_2 0
-#endif
+#define WXWIN_COMPATIBILITY_2_2 0
 
 // This setting determines the compatibility with 2.4 API: set it to 0 to
 // flag all cases of using deprecated functions.
@@ -45,9 +43,7 @@
 // in the version after it completely.
 //
 // Recommended setting: 0 (please update your code)
-#ifndef WXWIN_COMPATIBILITY_2_4
-    #define WXWIN_COMPATIBILITY_2_4 0
-#endif
+#define WXWIN_COMPATIBILITY_2_4 1
 
 // This setting controls the inclusion of reserved virtual functions
 // that were introduced just prior to the 2.6 freeze but have been
