@@ -508,7 +508,7 @@
     <ClInclude Include="..\..\include\wx\msw\rcdefs.h" />
     <ClInclude Include="..\..\include\wx\msw\region.h" />
     <ClInclude Include="..\..\include\wx\msw\scrolbar.h" />
-    <ClInclude Include="..\..\include\wx\setup.h" />
+    <ClInclude Include="..\..\include\wx\msw\setup0.h" />
     <ClInclude Include="..\..\include\wx\msw\slider95.h" />
     <ClInclude Include="..\..\include\wx\msw\sound.h" />
     <ClInclude Include="..\..\include\wx\msw\spinbutt.h" />

@@ -33,9 +33,7 @@
 // Default is 0
 //
 // Recommended setting: 0 (please update your code)
-#ifndef WXWIN_COMPATIBILITY_2_4
-    #define WXWIN_COMPATIBILITY_2_4 0
-#endif
+#define WXWIN_COMPATIBILITY_2_4 0
 
 // This setting determines the compatibility with 2.6 API: set it to 0 to
 // flag all cases of using deprecated functions.
@@ -45,9 +43,7 @@
 // in the version after it completely.
 //
 // Recommended setting: 0 (please update your code)
-#ifndef WXWIN_COMPATIBILITY_2_6
-    #define WXWIN_COMPATIBILITY_2_6 0
-#endif
+#define WXWIN_COMPATIBILITY_2_6 1
 
 // MSW-only: Set to 0 for accurate dialog units, else 1 for old behaviour when
 // default system font is used for wxWindow::GetCharWidth/Height() instead of
