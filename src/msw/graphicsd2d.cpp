@@ -2120,6 +2120,9 @@ wxD2DFontData::wxD2DFontData(wxGraphicsRenderer* renderer, ID2D1Factory* d2dFact
     wchar_t* name = new wchar_t[length+1];
     familyNames->GetString(0, name, length+1);
 
+#ifdef __VISUALC__
+#pragma warning(disable: 4996)
+#endif
     FLOAT dpiX, dpiY;
     d2dFactory->GetDesktopDpi(&dpiX, &dpiY);
 
