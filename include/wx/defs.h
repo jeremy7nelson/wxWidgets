@@ -66,6 +66,7 @@
 #   pragma warning(disable:4512)    /*  operator=() couldn't be generated */
 #   pragma warning(disable:4514)   /*  unreferenced inline func has been removed */
 #   pragma warning(disable:4710)    /*  function not inlined */
+#   pragma warning(disable:5287)    /*  operands are different enum types */
 
     /*
         TODO: this warning should really be enabled as it can be genuinely
